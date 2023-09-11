@@ -15,12 +15,13 @@ nav {
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
-    padding: 10px;
+    padding: 10px;   
 }
+
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -33,12 +34,12 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #57c4be;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(255, 243, 212);
     display: flex;
 }
 .sidebar {
@@ -55,7 +56,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(116, 246, 255) ridge;
     padding: 8px;
 }
 h2, h3 {
@@ -73,14 +74,14 @@ h2, h3 {
         }
 
         #portfolio li {
-            background: #fff;
+            background: #000000;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: #feffa7;
         }
 
         #portfolio a {
