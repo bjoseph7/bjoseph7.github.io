@@ -20,7 +20,7 @@ function resetAndRender() {
 // all of your apply functions
 function applyAndRender() {
   // Multiple TODOs: Call your apply function(s) here
-
+  applyFilter();
   
 
   // do not change the below line of code
@@ -31,8 +31,15 @@ function applyAndRender() {
 // "apply" and "filter" functions should go below here //
 /////////////////////////////////////////////////////////
 
-// TODO 1, 2 & 4: Create the applyFilter function here
-
+// TODO 1, 2 & 4: Create the applyFilter function here                     no clue if 1 is correct, you're on 2.
+function applyFilter() {
+  for (var i = image; i <= image.length; i++){
+    for (var b = image[i]; b <= image[i].length; b++){
+      image[i][b];
+    }
+  }
+  var rbString = image
+}
 
 // TODO 7: Create the applyFilterNoBackground function
 
