@@ -67,16 +67,16 @@ function runProgram(){
     }
   }
   function handleKeyUp(event){
-    if (event.which !== KEY.LEFT){
+    if (event.which === KEY.LEFT){
       walker.speedX = 0;
     } 
-    else if (event.which !== KEY.RIGHT){
+    else if (event.which === KEY.RIGHT){
       walker.speedX = 0;
     }
-    else if (event.which !== KEY.UP){
+    else if (event.which === KEY.UP){
       walker.speedY = 0;
     }
-    else if (event.which !== KEY.DOWN){
+    else if (event.which === KEY.DOWN){
       walker.speedY = 0;
   }
   }
